@@ -1,0 +1,10 @@
+.headerjumbo {
+    font-family: sans-serif;
+    background-color: blue;
+    color: white;
+}
+
+.footerjumbo {
+    font-family: sans-serif;
+    align-content: center;
+}

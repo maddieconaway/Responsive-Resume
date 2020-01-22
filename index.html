@@ -1,12 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Resume</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <script src="resume.js"></script>
+    <div class="container">
+        <div class="jumbotron headerjumbo">
+            <h1>Your Name</h1>
+            <h3>Your Position</h3>
+            <p>(This is a Jumbotron)</p>
+        </div>
+        <div class="alert alert-success" role="alert">
+            This resume was created using Bootstrap 4! (this is an alert)
+        </div>
+        <div>
+            <h2>My Skills</h2>
+            <p>(This is a list group with Badges)</p>
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">HTML/CSS<span
+                        class="badge badge-primary badge-pill">25%</span></li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">Front End Javascript<span
+                        class="badge badge-primary badge-pill">20%</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">NodeJS Server
+                    Development<span class="badge badge-primary badge-pill">35%</span></li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">SQL<span
+                        class="badge badge-primary badge-pill">20%</span></li>
+            </ul>
+        </div>
+        <div>
+            <h2>My Experience</h2>
+            <p>(This uses the grid system with Cards)</p>
+            <div class="row">
+                <div class="card w-100 col-4" style="width: 18rem;">
+                    <img class="card-img-top" src="cardbackgroundblue.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="card-title">Card title</h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card w-100 col-4" style="width: 18rem;">
+                    <img class="card-img-top" src="cardbackgroundblue.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="card-title">Card title</h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card w-100 col-4" style="width: 18rem;">
+                    <img class="card-img-top" src="cardbackgroundblue.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="card-title">Card title</h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card w-100 col-4" style="width: 18rem;">
+                    <img class="card-img-top" src="cardbackgroundblue.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="card-title">Card title</h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card w-100 col-4" style="width: 18rem;">
+                    <img class="card-img-top" src="cardbackgroundblue.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="card-title">Card title</h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card w-100 col-4" style="width: 18rem;">
+                    <img class="card-img-top" src="cardbackgroundblue.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="card-title">Card title</h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card w-100 col-4" style="width: 18rem;">
+                    <img class="card-img-top" src="cardbackgroundblue.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="card-title">Card title</h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card w-100 col-4" style="width: 18rem;">
+                    <img class="card-img-top" src="cardbackgroundblue.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h3 class="card-title">Card title</h3>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron text-center">
+            <h4>Your contact information here</h4>
+            <p>(This is a Jumbotron)</p>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
